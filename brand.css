@@ -1,0 +1,50 @@
+
+
+.video-background {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+video {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    z-index: -1;
+}
+
+.content-graph1 {
+    position: relative;
+    transition: 0.5s;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.content-graph1 img {
+    width: 100%;
+    
+}
+
+@media only screen and (min-width: 760px) {
+    
+
+    video {
+        width: 90%;
+       
+    }
+
+    
+}
+
+
+@media only screen and (min-width: 1080px) {
+   
+
+    video {
+        width: 70%;
+    }
+
+}

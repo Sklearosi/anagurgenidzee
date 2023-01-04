@@ -1,0 +1,71 @@
+.info-about {
+    font-family: sigmar one;
+    display: grid;
+    width: 90%;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.phone {
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.phone-text {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.phone-img {
+    width: 40px;
+}
+
+.email {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.email-text {
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.email-img {
+    width: 45px;
+}
+
+.location {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.location-text {
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.location-img {
+    width: 40px;
+}
+
+.socials {
+    margin-top: 60px;
+}
+
+.facebook {
+    cursor: pointer;
+}
+
+.bechance {
+    cursor: pointer;
+}
+
+
+
+

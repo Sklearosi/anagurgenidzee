@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="home">Ana Gurgenidze</a>
+    </header>
+    <div class="menu-opening">
+        <img class="info aboutme" src="./images/GIPAICONS-01.png" alt="">
+        <img class="contact contact1" src="./images/GIPAICONS-02.png" alt="">
+        <div class="burger-div">
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line-1"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    </div>
+    <nav class="nav-bar">
+        <ul class="main-list">
+            <li ><a class="aboutme aboutme1">About Me</a></li>
+            <li class="portfolio"><a onclick="portfolio1Btn()">Portfolio</a></li>
+            <img class="arrow" src="./images/icons8-chevron-left-30.png" alt="">
+            <ul class="pseudo-list">
+                <li><a onclick="brandBtn()">Brand Design</a></li>
+                <li><a class="nft">NFT</a></li>
+                <li><a class="illustration">Illustration</a></li>
+            </ul> 
+            <li><a class="contact1 contact2">Conctat</a></li>
+            <li><a class="certificates">Certificates</a></li>
+        </ul>
+    </nav>
+    <div class="gvino-enjoyers">
+        <img onclick="closeGvino()" class="close" src="./images/icons8-close-window-50.png" alt="">
+        <div class="gvino-div">
+            <img src="./images/gvino enjoyers club done-04.png" alt="" class="gvino-img">
+        </div>
+    </div>
+    <div class="bleeding">
+        <img onclick="closebleeding()" class="close" src="./images/icons8-close-window-50.png" alt="">
+        <div class="gvino-div">
+            <img src="./images/project 2 done-02.png" alt="" class="gvino-img">
+        </div>
+    </div>
+    <div class="cosmic">
+        <img onclick="closeCosmic()" class="close" src="./images/icons8-close-window-50.png" alt="">
+        <div class="gvino-div">
+            <div class="video-background">
+                <video autoplay loop muted plays-inline
+                class="video-back" >
+                    <source src="./brand/CosmicDrive.mp4" type="video/mp4">
+                </video>
+            </div>
+            <img src="./images/cosmic energy done-01.png" alt="" class="gvino-img">
+        </div>
+    </div>
+    <div class="psych">
+        <img onclick="closePsych()" class="close" src="./images/icons8-close-window-50.png" alt="">
+        <div class="gvino-div">
+            <img src="./images/cursed-01.png" alt="" class="gvino-img">
+        </div>
+    </div>
+    <div class="aqua">
+        <img onclick="closeAqua()" class="close" src="./images/icons8-close-window-50.png" alt="">
+        <div class="gvino-div">
+            <img src="./images/AquaBear DONE-01.png" alt="" class="gvino-img">
+        </div>
+    </div>
+    <div class="studio">
+        <img onclick="closeStudio()" class="close" src="./images/icons8-close-window-50.png" alt="">
+    </div>
+    <div class="higi">
+        <img onclick="closeHigi()" class="close" src="./images/icons8-close-window-50.png" alt="">
+        <div class="gvino-div">
+            <img src="./images/cursed2-01.png" alt="" class="gvino-img">
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-graph">
+            <img src="./images/GIPALOGOS-02.png"  alt="">
+            <div onclick="gvinoEnjoyersBtn()" class="filler" style="background-color: black;" ><h1>GVINO ENJOYERS</h1></div>
+        </div>
+
+        <div class="content-graph">
+            <img src="./images/GIPALOGOS-05.png" alt="">
+            <div onclick="bleedingBtn()" class="filler" style="background-color: black;"><h1>BLEEDING HEART</h1></div>
+        </div>
+
+        <div class="content-graph">
+            <img src="./images/GIPALOGOS-03.png" alt="">
+            <div onclick="cosmicBtn()" class="filler" style="background-color: black;" ><h1>COSMIC ENERGY</h1></div>
+        </div>
+
+        <div class="content-graph">
+            <img src="./images/GIPALOGOS-06.png" alt="">
+            <div onclick="psychBtn()" class="filler" style="background-color: black;"><h1>PSYCHOPAT</h1></div>
+        </div>
+        
+        <div class="content-graph">
+            <img src="./images/GIPALOGOS-01.png" alt="">
+            <div onclick="aquaBtn()" class="filler" style="background-color: black;"><h1>AQUA BEAR</h1></div>
+        </div>
+        
+        
+        
+        <div class="content-graph">
+            <img src="./images/GIPALOGOS-04.png" alt="">
+            <div onclick="studioBtn()" class="filler" style="background-color: black
+            ;"><h1>STUDIO POLARIS</h1></div>
+        </div>
+        <div class="content-graph">
+            <img src="./images/GIPALOGOS-07.png" alt="">
+            <div onclick="higiBtn()" class="filler" style="background-color: black;"><h1>HIGI PAPER</h1></div>
+        </div>
+    </div>
+    <div class="footer-filler"></div>
+    <script src="index.js"></script>
+</body>
+</html>

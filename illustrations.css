@@ -1,0 +1,43 @@
+.content-graph1 {
+    width: 100%;
+}
+
+.content-graph1 img {
+    width: 100%;
+}
+
+.content1 {
+    display: grid;
+    gap: 30px;
+}
+
+.head-filler {
+    height: 150px;
+}
+
+@media only screen and (min-width: 760px) {
+    .content1 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media only screen and (min-width: 1080px) {
+    .content1 {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .content1 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 0;
+    }
+
+
+}

@@ -1,0 +1,35 @@
+.content-graph {
+    position: relative;
+    transition: 0.5s;
+    margin: 0 auto;
+    width: 100%;
+    height:90vw;
+    object-fit: cover;
+}
+
+.content {
+    width: 100%;
+    gap: 20px;
+}
+
+@media only screen and (min-width: 760px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-graph {
+        height: 40vw;
+    }
+}
+
+
+@media only screen and (min-width: 1080px) {
+    .content {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+    }
+
+    .content-graph {
+        height: 25vw;
+    }
+}

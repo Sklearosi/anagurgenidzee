@@ -1,0 +1,23 @@
+p {
+    color: black;
+    
+}
+
+
+@media only screen and (min-width: 760px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    @media only screen and (min-width: 1080px) {
+       
+    
+        p {
+            font-size: 23px;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="home">Ana Gurgenidze</a>
+    </header>
+    <div class="menu-opening">
+        <img class="info aboutme" src="./images/GIPAICONS-01.png" alt="">
+        <img class="contact contact1" src="./images/GIPAICONS-02.png" alt="">
+        <div class="burger-div">
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line-1"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    </div>
+    <nav class="nav-bar">
+        <ul class="main-list">
+            <li ><a class="aboutme aboutme1">About Me</a></li>
+            <li class="portfolio"><a onclick="portfolio1Btn()">Portfolio</a></li>
+            <img class="arrow" src="./images/icons8-chevron-left-30.png" alt="">
+            <ul class="pseudo-list">
+                <li><a onclick="brandBtn()">Brand Design</a></li>
+                <li><a class="nft">NFT</a></li>
+                <li><a class="illustration">Illustration</a></li>
+            </ul> 
+            <li><a class="contact1 contact2">Conctat</a></li>
+            <li><a class="certificates">Certificates</a></li>
+        </ul>
+    </nav>
+    <div class="categories">
+        <div onclick="brandBtn()" class="cat-div">
+            <div class="video-background1">
+                <video autoplay loop muted plays-inline
+                class="video-back" >
+                    <source src="./brand/CosmicDrive.mp4" type="video/mp4">
+                </video>
+        </div>
+        <h1 class="Illustrations-text">Brand Design</h1>
+        </div>
+        <div  class="cat-div nft">
+            <img src="./images/PrestigeKittyCat-01.png" alt="">
+            <h1 class="Illustrations-text">NFT</h1>
+        </div>
+        
+        <div class="cat-div illustration">
+            <img src="./illustrations/gurl-01.png" alt="">
+            <h1 class="Illustrations-text">Illustrations</h1>
+        </div>
+    </div>
+    <div class="footer-filler"></div>
+    <script src="index.js"></script>
+</body>
+</html>
